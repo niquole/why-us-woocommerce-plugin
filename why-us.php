@@ -1,4 +1,10 @@
 <?php
+/**
+ * Plugin Name: Why Us WooCommerce Section
+ * Description: Adds a Why Us section with ACF and Swiper on WooCommerce product pages.
+ * Version: 1.0
+ * Author: Nicole
+ */
 
 if (!defined('ABSPATH')) {
     exit;

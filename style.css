@@ -1,0 +1,77 @@
+.whyus {
+  padding: 120px 0px 240px 0px;
+  background-size: cover;
+  background-position: center;
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+.whyus .section-title {
+  text-align: center;
+  margin-bottom: 60px;
+  color: red;
+  font-family: 'Baloo 2', cursive;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.whyus-card {
+  text-align: left;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+
+.whyus-card img {
+  width: 100%;
+  object-fit: cover;
+  height: 210px !important;
+  display: block;
+}
+
+.whyus-card .text-section {
+  padding: 30px 20px 30px 30px;
+  position: relative;
+  border-top: 2px solid #000;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+
+.whyus-card .text-section::before {
+  content: "";
+  position: absolute;
+  top: -28px;
+  left: 8px;
+  width: 0;
+  height: 0;
+  border-left: 28px solid transparent;
+  border-bottom: 28px solid #000;
+}
+
+.whyus-card .text-section::after {
+  content: "";
+  position: absolute;
+  top: -24px;
+  left: 10px;
+  width: 0;
+  height: 0;
+  border-left: 24px solid transparent;
+  border-bottom: 24px solid #fff;
+}
+
+.card-description {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  font-size: 14px;
+  line-height: 16px;
+  gap: 25px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
